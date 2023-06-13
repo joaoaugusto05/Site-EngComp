@@ -24,7 +24,7 @@ export const HeaderNotas = styled.div`
 `;
 
 export const HeaderGradient = styled.div`
-    background-image: linear-gradient(to right,rgb(0, 34, 40) 20%, transparent);
+    background-image: linear-gradient(to right,rgb(0, 34, 40) 20%, rgba(0, 34, 40, 0.521));
     width: 100%;
     height: 100%;
 `;
