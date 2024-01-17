@@ -23,3 +23,4 @@ export const CarouselHover = styled.div`
     transition: all 1s ease;
   }
 `;
+

@@ -27,23 +27,22 @@ export default function Carrossel(){
                   <source
                     media="(min-width: 768px)"
                     srcSet="https://wallpapercave.com/uwp/uwp4232623.png"
-                    style={{
-                      filter: 'brightness(30%)', 
-                    }}
                   />
                   <img
                     className="d-block w-100"
                     src="https://wallpapercave.com/uwp/uwp4232585.jpeg"
                     alt="First slide"
                     style={{
-                      filter: 'brightness(30%)', 
+                      filter: open ? 'brightness(5%)' : "brightness(30%)",
+                      transition: "1s"
                     }}
                   />
+                  
                 </picture>
                 </CarouselHover>
             
                 <Carousel.Caption 
-                  style={{position: "absolute", top: open ? "10%" : "45%", pointerEvents: "none", transition: "top 0.5s ease"}}
+                  style={{position: "absolute", top: open ? "5%" : "45%", pointerEvents: "none", transition: "top 0.5s ease"}}
                 >
                   <DefaultTitle>SISTEMAS COMPUTACIONAIS AVANÇADOS</DefaultTitle>
                   <Collapse in={open}>
@@ -52,8 +51,7 @@ export default function Carrossel(){
                         <StandardText>
 
                         
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim nunc faucibus a. Morbi tempus iaculis urna id volutpat. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Lacinia quis vel eros donec ac. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Congue quisque egestas diam in. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Nisi vitae suscipit tellus mauris a diam. Porta nibh venenatis cras sed felis eget velit aliquet. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Non blandit massa enim nec dui nunc mattis enim. Nibh tellus molestie nunc non. In massa tempor nec feugiat nisl.
-                      
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim nunc faucibus a. Morbi tempus iaculis urna id volutpat. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Lacinia quis vel eros donec ac. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Congue quisque egestas diam in. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus.                     
                       </StandardText>
                       </p>
                     </div>
@@ -67,23 +65,21 @@ export default function Carrossel(){
                   <source
                     media="(min-width: 768px)"
                     srcSet="https://wallpapercave.com/uwp/uwp4232623.png"
-                    style={{
-                      filter: 'brightness(30%)', 
-                    }}
                   />
                   <img
                     className="d-block w-100"
                     src="https://wallpapercave.com/uwp/uwp4232585.jpeg"
                     alt="First slide"
                     style={{
-                      filter: 'brightness(30%)', 
+                      filter: open ? 'brightness(5%)' : "brightness(30%)",
+                      transition: "1s"
                     }}
                   />
                 </picture>
                 </CarouselHover>
 
                 <Carousel.Caption
-                  style={{position: "absolute", top: open ? "10%" : "45%", pointerEvents: "none", transition: "top 0.5s ease"}}
+                  style={{position: "absolute", top: open ? "5%" : "45%", pointerEvents: "none", transition: "top 0.5s ease"}}
                 >
                   <DefaultTitle>SISTEMAS EMBARCADOS</DefaultTitle>
                   <Collapse in={open}>
@@ -113,14 +109,16 @@ export default function Carrossel(){
                     src="https://wallpapercave.com/uwp/uwp4232585.jpeg"
                     alt="First slide"
                     style={{
-                      filter: 'brightness(30%)', 
+                      filter: open ? 'brightness(5%)' : "brightness(30%)",
+                      transition: "1s"
+                  
                     }}
                   />
                 </picture>
                 </CarouselHover>
 
                 <Carousel.Caption 
-                  style={{position: "absolute", top: open ? "10%" : "45%", pointerEvents: "none", transition: "top 0.5s ease"}}
+                  style={{position: "absolute", top: open ? "5%" : "45%", pointerEvents: "none", transition: "top 0.5s ease"}}
                 >
                   <DefaultTitle>SISTEMAS DE COMUNICAÇÃO E COMPUTAÇÃO MÓVEL</DefaultTitle>
                   <Collapse in={open}>
@@ -150,14 +148,15 @@ export default function Carrossel(){
                     src="https://wallpapercave.com/uwp/uwp4232585.jpeg"
                     alt="First slide"
                     style={{
-                      filter: 'brightness(30%)', 
+                      filter: open ? 'brightness(5%)' : "brightness(30%)",
+                      transition: "1s"
                     }}
                   />
                 </picture>
                 </CarouselHover>
 
                 <Carousel.Caption 
-                  style={{position: "absolute", top: open ? "10%" : "45%", pointerEvents: "none", transition: "top 0.5s ease"}}
+                  style={{position: "absolute", top: open ? "5%" : "45%", pointerEvents: "none", transition: "top 0.5s ease"}}
                 >
                   <DefaultTitle>ROBÓTICA</DefaultTitle>
                   <Collapse in={open}>
@@ -186,14 +185,15 @@ export default function Carrossel(){
                     src="https://wallpapercave.com/uwp/uwp4232585.jpeg"
                     alt="First slide"
                     style={{
-                      filter: 'brightness(30%)', 
+                      filter: open ? 'brightness(5%)' : "brightness(30%)",
+                      transition: "1s"
                     }}
                   />
                 </picture>
                 </CarouselHover>
 
                 <Carousel.Caption 
-                  style={{position: "absolute", top: open ? "10%" : "45%", pointerEvents: "none", transition: "top 0.5s ease"}}
+                  style={{position: "absolute", top: open ? "5%" : "45%", pointerEvents: "none", transition: "top 0.5s ease"}}
                 >
                   <DefaultTitle>CIÊNCIA DE DADOS</DefaultTitle>
                   <Collapse in={open}>
