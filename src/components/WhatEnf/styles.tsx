@@ -14,15 +14,11 @@ export const Container = styled.div`
     }
 `;
 export const WhatEnfDiv = styled.div`
-    margim-bottom: 5rem;
     max-width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    @media(max-width: 1080px){
-      max-width: 80%;
-    }
 `;
 
 export const Enf_img = styled.div`

@@ -5,6 +5,7 @@ export const Container = styled.div`
 `;
 
 export const Carrosseldiv = styled.div`
+    display: flex;
     height: 100%;
 `;
 
